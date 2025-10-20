@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/animate.css" />
     <title>Ярослав Касымбеков - фрилансер, веб-разработчик</title>
   </head>
 
@@ -39,18 +40,18 @@
 
         <div class="hero-content">
           <div class="hero-text">
-            <span class="hero-subtitle">Фрилансер</span>
-            <h1 class="hero-title">Ярослав Касымбеков</h1>
-            <p class="hero-description">
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Ярослав Касымбеков</h1>
+            <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <button class="button hero-button" type="submit">
+            <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s" type="submit">
               Бесплатная консультация
             </button>
           </div>
           <!-- /.hero-text -->
-          <div src="" alt="" class="hero-avatar"></div>
+          <div src="" alt="" class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
           <!-- /.hero-avatar -->
         </div>
         <!-- /.hero-content -->
@@ -168,8 +169,51 @@
             />
             <button class="button form-button">Бесплатная консультация</button>
           </form>
+
+          <div class="contacts-text">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a class="contacts-link href="tel:+79966990785">+7 (996) 699-07-85</a>
+              </div>
+
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a class="contacts-link href="mailto:aroslavkasymbekov@gmail.com"
+                  >aroslavkasymbekov@gmail.com</a
+                >
+              </div>
+
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соц-сети</h4>
+                <a href="#" class="contacts-link">t.me/yar</a>
+                <a href="#" class="contacts-link">vk/yar</a>
+                <a href="#" class="contacts-link">insta/yar</a>
+              </div>
+            </div>
+
+             <div class="social-links">
+            <a href="https://github.com/Yarik543" class="social-link"
+              ><img src="/images/social/github.svg" alt="github"
+            /></a>
+            <a href="https://twitter.com/Yarik543" class="social-link"
+              ><img src="/images/social/twitter.svg" alt="twitter"
+            /></a>
+            <a href="https://instagram.com/Yarik543" class="social-link"
+              ><img src="/images/social/instagram.svg" alt="instagram"
+            /></a>
+            <a href="https://facebook.com/Yarik543" class="social-link"
+              ><img src="/images/social/facebook.svg" alt="facebook"
+            /></a>
+          </div>
+          <!-- /.social-links -->
+           <a href="#" class="contact-policy">Политика конфидециальности</a>
+          </div>
         </div>
       </div>
     </footer>
+
+    <script src = "/js/wow.min.js"></script>
+     <script src = "/js/main.js"></script>
   </body>
 </html>
