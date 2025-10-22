@@ -212,6 +212,12 @@ body {
 .projects-bullet-active {
   background-color: #ffbb01;
 }
+
+.projects-slider {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
 /*.contacts-form*/
 
 .contacts-form {
